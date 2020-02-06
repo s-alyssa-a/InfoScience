@@ -11,3 +11,30 @@ In alghorithm thinking, you have to be detailed because a supercomputer can only
 3. **What questions do I have?**
 
 I only have questions about how to create a shape on Processing, which I will find out the answers to while exploring and doing research on it later.
+
+# Solution to the homework 
+
+Here I solved the code challenge to create the first letter of my name by using squares in Processing.
+
+```.py
+
+square(10, 10, 20);
+square(30, 10, 20);
+square(50, 10, 20);
+square(70, 10, 20);
+
+square(10, 30, 20);
+square(10, 50, 20);
+
+square(30, 50, 20);
+square(50, 50, 20);
+square(70, 50, 20);
+
+square(70, 70, 20);
+
+square(70, 90, 20);
+square(50, 90, 20);
+square(30, 90, 20);
+square(10, 90, 20);
+
+```
