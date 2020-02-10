@@ -25,16 +25,11 @@ def setup():
   size(600, 600)
   background (255)
 
-def draw ():
-    square(150, 100, 300)
-    
 def draw():
+    x=0
     
-    myred = (0)
-
-    fill(myred)
-
-        
+def mouseClicked():
+    square(150, 100, 300)
     circle(200, 150, 55)
     circle(300, 250, 55)
     circle(200, 350, 55)
