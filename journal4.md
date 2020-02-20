@@ -1,12 +1,28 @@
-# *Info Sci | Feb 20th 2020*
+# *My 4th Info Science Journal Entry | Feb 20th 2020*
 
 1. **What did we do?**
 
 We were given a piece of paper and instructions to create a chess pattern.
 
 ```
-fiehfdeifhfewfrjvjrghv
-
+Big Problem: Create a Chess Pattern
+Sub-Problems: 
+ - create a square [square(x,y,size)]
+ - fill it black [fill(0)/stroke(225)]
+ - create a horizontal line [line(x,y,x2,y2]
+ - repeat things [for loop]
+ - offsetting [global offset/offset = offset + 1]
+   
+Steps:
+1. Setup the screen 500 x 500 
+2. Set background to white
+3. Draw a horizontal line by using y=50, from x=0 to x=500
+4. Make the stroke black.
+5. Draw a square and fill it black with white stroke.
+6. Repeat it by using loop to create 5 other squares across one horizontal line with 100 pixels space between them.
+7. Repeat the squares bu using loop, this time vertically.
+8. Add in offset to create the visual illusion.
+    
 ```
 
 2. **What did you learn?**
