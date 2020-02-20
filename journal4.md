@@ -5,15 +5,15 @@
 We were given a piece of paper and instructions to create a chess pattern.
 
 ```
-**Big Problem**: Create a Chess Pattern
-**Sub-Problems [and solutions]**: 
+*Big Problem*: Create a Chess Pattern
+*Sub-Problems [and solutions]*: 
  - create a square [square(x,y,size)]
  - fill it black [fill(0)/stroke(225)]
  - create a horizontal line [line(x,y,x2,y2]
  - repeat things [for loop]
  - offsetting [global offset/offset = offset + 1]
    
-**Steps:**
+*Steps:*
 1. Setup the screen 500 x 500 
 2. Set background to white
 3. Draw a horizontal line by using y=50, from x=0 to x=500
