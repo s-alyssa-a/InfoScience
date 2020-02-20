@@ -2,18 +2,18 @@
 
 1. **What did we do?**
 
-We were given a piece of paper and instructions to create a chess pattern.
+We were given a piece of paper and with it, write down instructions to create a chess pattern on Processing. This took many trials and fails and confusion, but by the end of class, I did it! I also played around with the position and colors of the squares for awhile, just to explore its exact functions. 
 
 ```
-*Big Problem*: Create a Chess Pattern
-*Sub-Problems [and solutions]*: 
- - create a square [square(x,y,size)]
- - fill it black [fill(0)/stroke(225)]
+Big Problem: Create a Chess Pattern
+Sub-Problems [and solutions]: 
+ - create a square          [square(x,y,size)]
+ - fill it black            [fill(0)/stroke(225)]
  - create a horizontal line [line(x,y,x2,y2]
- - repeat things [for loop]
- - offsetting [global offset/offset = offset + 1]
+ - repeat things            [for loop]
+ - offsetting               [global offset/offset = offset + 1]
    
-*Steps:*
+Steps:
 1. Setup the screen 500 x 500 
 2. Set background to white
 3. Draw a horizontal line by using y=50, from x=0 to x=500
@@ -27,11 +27,52 @@ We were given a piece of paper and instructions to create a chess pattern.
 
 2. **What did you learn?**
 
-In alghorithm thinking, you have to be detailed because a supercomputer can only be a supercomputer if you feed it superinstructions. Computational thinking is also not limited to only computer-related skills, but it is a way of thinking that can be applied to all kinds of problem in real life as well.
+I learned that instead of repeating the same code but with slight adjustments, we could instead just use 'for loop'. It was quite a hard code, but eventually I understood it. I also learned about the exact functions of x and y and using offset, which is a new concept for me. 
+
+```
+global offset
+offset = 50
+
+def mouseClicked():
+    global offset
+    offset = offset + 1
+    
+
+def setup():
+  size(500, 500)
+  background (0, 255, 0)
+  
+def draw(): 
+    stroke(0) # lines are black
+    y = 50
+    for inc in range(9):
+        line(0,y,500,y)
+        y = y + 50
+    
+    fill(0)
+    stroke(225)
+    y = 0
+    for rows in range(5):
+        x = 0
+        for rep in range(5):
+            square(x,y,50)
+            x = x + 100
+        y = y + 100
+    y = 50 # start of the even rows
+    offset = 50
+    for rows in range(5):
+        x = 50
+        for rep in range(5):
+            square(x,y,50)
+            x = x + 100
+        y = y + 100
+
+```
 
 3. **What questions do I have?**
 
-I only have questions about how to create a shape on Processing, which I will find out the answers to while exploring and doing research on it later.
+Q: Where does the term 'global offset' come from and what does it mean exactly? What are some easy-to-code illusions?
+A: *to fill in later*
 
 # Homework
 
@@ -41,27 +82,4 @@ I only have questions about how to create a shape on Processing, which I will fi
 
 # Solution to the homework 
 
-Here I solved the code challenge to create the first letter of my name by using squares in Processing.
-
-```.py
-
-square(10, 10, 20);
-square(30, 10, 20);
-square(50, 10, 20);
-square(70, 10, 20);
-
-square(10, 30, 20);
-square(10, 50, 20);
-
-square(30, 50, 20);
-square(50, 50, 20);
-square(70, 50, 20);
-
-square(70, 70, 20);
-
-square(70, 90, 20);
-square(50, 90, 20);
-square(30, 90, 20);
-square(10, 90, 20);
-
-```
+*to fill in later* 
