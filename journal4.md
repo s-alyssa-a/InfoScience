@@ -82,4 +82,26 @@ A: *to fill in later*
 
 # Solution to the homework 
 
-*to fill in later* 
+```
+1. My main research places were freecodecamp.org and https://www.101computing.net/optical-illusions/
+2. The Kanizsa Triangle
+3. 
+def setup():
+    size(600, 600)
+    background(255)
+    
+def draw():
+    fill(0)
+    ellipse(100, 100, 100, 100)
+    ellipse(400, 100, 100, 100)
+    ellipse(250, 400, 100, 100)
+    
+    strokeWeight(10)
+    stroke(0)
+    fill(255)
+    triangle(250, 50, 100, 300, 400, 300)
+    stroke(255)
+    fill(255)
+    triangle(100, 100, 400, 100, 250, 400)
+
+```
