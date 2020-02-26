@@ -72,7 +72,7 @@ def draw():
 3. **What questions do I have?**
 
 Q: Where does the term 'global offset' come from and what does it mean exactly? What are some easy-to-code illusions?
-A: *to fill in later*
+A: https://www.101computing.net/optical-illusions/
 
 # Homework
 
