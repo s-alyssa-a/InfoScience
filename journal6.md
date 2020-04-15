@@ -51,7 +51,7 @@ delay(100)
 ```
 
 <i>TASK 2</i>
-The simulation for COVID-19
+<b>The simulation for COVID-19</b>
 
 ```
 
@@ -59,14 +59,14 @@ The simulation for COVID-19
 
 Add a bar graph at the bottom right corner of the screen that counts the number of infected people and the number of healthy people. It should also show the numbers:
 ```
-I added:</b>
+<b>I added:</b>
 
 ```
 
 Add a counter for the number of times the simulation has run, this is the same as counting the number of times the Draw function is run.
 
 ```
-I added:</b>
+<b>I added:</b>
 
 ```
 
