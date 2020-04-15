@@ -1,4 +1,4 @@
-# *My 6th Info Science Journal Entry | April 20th 2020*
+# *My 6th Info Science Journal Entry | April 20th 2020* (not fully completed)
 
 1. **What did we do?**
 
@@ -21,7 +21,7 @@ delay (1000)
 
 ```
 
-Create a program that prints the years from 1900 to 2000
+Create a program that prints the years from 1900 to 2000:
 
 ```
 i = 0
@@ -35,7 +35,7 @@ delay (100)
 ```
 
 Create a program that prints the conversion for Celsius to Fahrenheit 
-from 0 C to 100 C
+from 0 C to 100 C:
 
 ```
 c = 0
@@ -79,13 +79,11 @@ Add a counter for the number of times the simulation has run, this is the same a
 
 2. **What did you learn?**
 
-I learned that the loop variable (for i in range():) is actually changeable and does not affect the code. 
+
 
 
 
 3. **What questions do I have?**
 
-Q: Where does the term 'global offset' come from and what does it mean exactly? What are some easy-to-code illusions?
-A: https://www.101computing.net/optical-illusions/
 
 
