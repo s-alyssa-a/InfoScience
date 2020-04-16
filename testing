@@ -1,4 +1,4 @@
-```
+
 x = [100,200]
 y = [100,250]
 h = [False, True] #false => infected 
@@ -67,4 +67,4 @@ def draw():
         if y[m]>500: y[m] = 500
         if y[m]<0: y[m] = 0
     delay(50)
-```
+
