@@ -38,6 +38,8 @@ Create a program that prints the conversion for Celsius to Fahrenheit
 from 0 C to 100 C:
 
 ```
+i = 0
+
 
 def setup():
     global c, f
