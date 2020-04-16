@@ -57,6 +57,8 @@ delay(100)
 x = [100, 200]
 y = [100, 250]
 h = [False, True]
+<i>wid = 220</i>
+<i>Co = 0</i>
 
 def setup():
     size(500,605)
@@ -72,8 +74,10 @@ def distance(x1, x2, y1, y2):
     return c
         
 def draw():
-    global x,y
+    global x,y, <i>wid1, wid2, Co, count</i>
     background(255)
+    <i>strokeWeight(2)</i)
+    <i>count = </i>
         
     for ind in range(len(x)):
         if h[ind] == True:
@@ -91,7 +95,7 @@ def draw():
                 h[nei] = False
       
         
-    for m in range(3):
+    for m in range(len(x)):
         x[m] += random(-20,20)
         y[m] += random(-20,20)
         if x[m] > 500: x[m] = 500 # kanan
@@ -115,7 +119,7 @@ def draw():
     background(255)
     strokeWeight(2)
     count = 0
-    for i in range(len(x)):
+    for ind in range(len(x))
         if h[i] == False:
             count += 1
             background(255)
@@ -137,6 +141,14 @@ def draw():
     fill(50)
     text("Healthy Count:", 300, 580)
     text(widCount, 390, 580)
+    
+    if h[ind] == True:
+            fill(255) #healthy
+        else:
+            fill(255, 0, 0) #infected
+        circle(x[ind], y[ind], 40)
+        
+    ...
 
 ```
 
@@ -146,11 +158,13 @@ def draw():
 
 2. **What did you learn?**
 
+I learn that coding is really hard work and pretty time-consuming - so I seeked for help from Sara, Long and Mirko. They were very helpful and Sara even set a time for us to videocall to help each other with this assignment. Even so, I take a long time understanding what was required by the assignment so I've only completed the first two.
 
+I still have the last slide, task 3 to do. (3. Complete the table below for 5 different simulation where the number of people moving changes / 4. What conclusion can you draw from the simulations you run in step 3. Explain. / 5. Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.)
 
 
 
 3. **What questions do I have?**
 
-
+None yet
 
