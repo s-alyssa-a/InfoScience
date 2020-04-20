@@ -1,4 +1,5 @@
-# *My 6th Info Science Journal Entry | April 20th 2020* (not fully completed)
+# *My 6th Info Science Journal Entry | April 20th 2020*
+
 
 1. **What did we do?**
 
@@ -152,19 +153,63 @@ def draw():
 
 ```
 
+<i> TASK 3 </i>
+<b> Complete the table below for 5 different simulation where the number of people moving changes</b>
+
+```
+Case Number: Number of people moving | Population size | Number of iteration until all the population is infected |
 
 
+Case Number 1: 3 | 25 | 345
+
+
+Case Number 2: 6 | 25 | 257
+
+
+Case Number 3: 9 | 25 | 144
+
+
+Case Number 4: 12 | 25 | 103
+
+
+Case Number 5: 15 | 25 | 69
+```
+
+What conclusion can you draw from the simulations you run in step 3. Explain.
+```
+With more people moving, the less iterations would be needed until all of the population to be infected. This shows how fast and effectively a virus can spread when the rate of people infected is high.
+```
+
+Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.
+```
+Case Number: Number of people moving | Population size | Number of iteration until all the population is infected |
+
+Case Number 1: 3 | 25 | 335 
+
+
+Case Number 2: 3 | 20 | 270
+
+
+Case Number 3: 3 | 15 | 268
+
+
+Case Number 4: 3 | 10 | 135
+
+
+Case Number 5: 3 | 5 | 72
+
+
+With an increasingly smaller population size, but a remaining number of people infected moving, the less iterations would be needed until all of the population is infected. 
+```
 
 
 2. **What did you learn?**
 
-I learn that coding is really hard work and pretty time-consuming - so I seeked for help from Sara, Long and Mirko. They were very helpful and Sara even set a time for us to videocall to help each other with this assignment. Even so, I take a long time understanding what was required by the assignment so I've only completed the first two.
-
-I still have the last slide, task 3 to do. (3. Complete the table below for 5 different simulation where the number of people moving changes / 4. What conclusion can you draw from the simulations you run in step 3. Explain. / 5. Propose another table of simulations. Variables we can change include: population size, distance of infection, movement size, number of people moving.)
+I learn that coding is really hard work and pretty time-consuming - so I seeked for help from Sara, Long and Mirko. They were very helpful and Sara even set a time for us to videocall to help each other with this assignment. Even so, I took a long time understanding what was required by the assignment. 
+Data-taking, which was what I practiced in Task 3, proved itself to be simple but still required focus.
 
 
 
 3. **What questions do I have?**
 
-None yet
-
+None yet.
